@@ -28,12 +28,12 @@ header {
     font-size: 16px;
     align-items: center;
     margin-left: 40px;
-    padding: 6px;
+    padding: 4px;
     padding-bottom: 20px;
     text-align: center;
     width: 150px;
-    height: 3px;
-
+    height: 1px;
+    
     background: #EC6550;
     letter-spacing: 0.07em;
 
@@ -61,7 +61,7 @@ a:hover {
     font-size: 3vh;
     text-transform: none;
     font-family: verdana, sans-serif;
-
+    padding-left: 20px;
 
 }
 
@@ -75,6 +75,7 @@ padding-right: 100px;
 }
 
 .glav {
+    padding-left: 0;
     display: flex;
     flex-wrap: wrap;
 }
@@ -132,4 +133,5 @@ padding-right: 100px;
 
     text-transform: none;
     font-size: 3vh;
+    color: red;
 }
