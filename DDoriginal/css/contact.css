@@ -1,0 +1,67 @@
+.hope {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+
+}
+
+
+
+.container_all {
+    text-align: center;
+    height: 789px;
+
+    background-image: url(../img/back.png );
+    border-top-style: none;
+    border-right-style: groove;
+    border-bottom-style: none;
+    border-left-style: groove;
+
+
+
+
+}
+
+
+
+.contact p {
+    font-size: 18px;
+    text-transform: none;
+
+}
+
+.contact h2 {
+
+    padding-bottom: 40px;
+}
+
+p a {
+    color: #322AFF;
+}
+
+p a:hover {
+    color: #7FFF85;
+    text-decoration: underline;
+}
+
+.left_contact {
+    text-align: center;
+
+    height: 789px;
+    background-image: url(../img/back.png);
+
+    font-size: 3vh;
+}
+
+.right_contact {
+    text-align: center;
+
+    height: 789px;
+    background-image: url(../img/back.png);
+
+    font-size: 3vh;
+}
+/*.contact {
+    width: 700px;
+    border: 1px red solid;
+    background: rgba(255, 0, 0, 0.5);
+}

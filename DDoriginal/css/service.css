@@ -1,0 +1,43 @@
+.container_all {
+    text-align: left;
+    height: 789px;
+    padding-left: 40px;
+    background-image: url(../img/back.png);
+    border-top-style: none;
+    border-right-style: groove;
+    border-bottom-style: none;
+    border-left-style: groove;
+}
+
+.hope {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+
+}
+
+.east, .west {
+    height: 789px;
+    background-image: url(../img/back.png);
+
+    font-size: 3vh;
+}
+
+.floor {
+    margin-top: 100px;
+
+}
+
+.adress_on{
+    color: #925B49;
+}
+
+.adress_on:hover {
+    color: #fff;
+    background-color: #3E4045;
+}
+
+#adress {
+    text-transform: none;
+    font-size: 14px;
+    padding-left: 40px;
+}
