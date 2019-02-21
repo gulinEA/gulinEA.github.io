@@ -58,7 +58,7 @@ a:hover {
     margin-left: auto;
     padding-right: 30px;
     color: white;
-    font-size: 26px;
+    font-size: 3vh;
     text-transform: none;
     font-family: verdana, sans-serif;
 
@@ -68,18 +68,21 @@ a:hover {
 
 .left {
 
-    width: 50%;
-    height: auto;
+    
+padding-right: 100px;
     margin-left: 50px;
 
 }
 
 .glav {
     display: flex;
+    flex-wrap: wrap;
 }
 .one {
     margin-top: 5px;
     display: block;
+
+
 }
 
 .right {
@@ -109,9 +112,11 @@ a:hover {
 }
 
 .right img {
-    width: 472px;
-    margin-left: 400px;
-    height: 85%;
+    width: 40vh;
+    margin-left: auto;
+    height: 50vh;
+    min-width: 179px;
+    min-height: 48px;
 }
 
 .container_all {
