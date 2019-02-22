@@ -5,17 +5,19 @@
     padding-left: 100px;
     padding-right: 100px;
     text-align: center;
-    height: 789px;
+    
     background-image: url(../img/back.png);
     border-top-style: none;
     border-right-style: groove;
     border-bottom-style: none;
     border-left-style: groove;
+    s
 }
 
 .obch {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
+    height: 760px;
 }
 .container_all div {
     height: 50px;
@@ -28,14 +30,15 @@
 }
 
 .left_pr, .right_pr {
-    height: 789px;
+    
     background-image: url(../img/back.png);
     font-size: 3vh;
 }
 
-.serv {
-    color: #2A2C59;
-    font-weight: bold;
+
+    
+    
+    
 }
 
 .cat {

@@ -1,6 +1,6 @@
 .container_all {
     text-align: left;
-    height: 789px;
+    height: 760px;
     padding-left: 40px;
     background-image: url(../img/back.png);
     border-top-style: none;
@@ -16,7 +16,7 @@
 }
 
 .east, .west {
-    height: 789px;
+    height: 760px;
     background-image: url(../img/back.png);
 
     font-size: 3vh;
