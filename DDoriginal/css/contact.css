@@ -26,7 +26,7 @@
 .contact p {
     font-size: 18px;
     text-transform: none;
-    color: red;
+    
 }
 
 .contact h2 {
@@ -60,8 +60,10 @@ p a:hover {
 
     font-size: 3vh;
 }
-/*.contact {
-    width: 700px;
-    border: 1px red solid;
-    background: rgba(255, 0, 0, 0.5);
+span {
+    text-transform: none;
+    font-size: 13px;
+}
+h4 {
+    margin: 40px 0 10px 0;
 }
