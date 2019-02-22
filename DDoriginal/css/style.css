@@ -58,10 +58,11 @@ a:hover {
     margin-left: auto;
     padding-right: 30px;
     color: white;
-    font-size: 3vh;
+    font-size: 20px;
     text-transform: none;
     font-family: verdana, sans-serif;
     padding-left: 20px;
+    
 
 }
 
@@ -69,8 +70,9 @@ a:hover {
 .left {
 
     
-padding-right: 100px;
+    padding-right: 100px;
     margin-left: 50px;
+    
 
 }
 
@@ -125,13 +127,18 @@ padding-right: 100px;
 }
 
 
-.left h1 {
-    font-size: 6vh;
+.left h2 {
+    font-size: 4vw;
 
 }
 .text {
-
+    border: 1px solid red;
+    position: relative;
     text-transform: none;
-    font-size: 3vh;
+    font-size: 2vw;
     color: red;
+    
+    
+    
+    
 }
