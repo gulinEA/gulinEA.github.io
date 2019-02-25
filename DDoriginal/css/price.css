@@ -1,7 +1,7 @@
 .container_all {
     display: grid;
     grid-template-columns: 1fr 3fr 2fr;
-    align-items: center;
+    
     padding-left: 100px;
     padding-right: 100px;
     text-align: center;
@@ -32,7 +32,7 @@
 .left_pr, .right_pr {
     
     background-image: url(../img/back.png);
-    font-size: 3vh;
+    
 }
 
 

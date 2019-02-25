@@ -4,21 +4,15 @@
     height: 760px;
 }
 
-
-
 .container_all {
     text-align: center;
-    
-
-    background-image: url(../img/back.png );
+    height: 760px;
+    background-image: url(../img/back.png);
     border-top-style: none;
     border-right-style: groove;
     border-bottom-style: none;
     border-left-style: groove;
-
-
-
-
+    
 }
 
 
@@ -44,21 +38,21 @@ p a:hover {
 }
 
 .left_contact {
-    text-align: center;
+    
 
     
     background-image: url(../img/back.png);
 
-    font-size: 3vh;
+    
 }
 
 .right_contact {
-    text-align: center;
-
     
+
+    padding-right: 100px;
     background-image: url(../img/back.png);
 
-    font-size: 3vh;
+    
 }
 span {
     text-transform: none;

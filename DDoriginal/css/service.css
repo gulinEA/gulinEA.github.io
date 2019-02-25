@@ -1,25 +1,35 @@
+.hope {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 760px;
+    
+}
+
 .container_all {
     text-align: left;
     height: 760px;
-    padding-left: 40px;
     background-image: url(../img/back.png);
     border-top-style: none;
     border-right-style: groove;
     border-bottom-style: none;
     border-left-style: groove;
+    min-width: 390px;
+    padding-right: 100px;
 }
 
-.hope {
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
 
-}
 
-.east, .west {
-    height: 760px;
+.east_test {
+    
     background-image: url(../img/back.png);
+    
+}
 
-    font-size: 3vh;
+.west_test {
+
+    background-image: url(../img/back.png);
+    
+    
 }
 
 .floor {
