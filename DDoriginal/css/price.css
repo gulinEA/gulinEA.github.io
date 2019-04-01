@@ -11,13 +11,22 @@
     border-right-style: groove;
     border-bottom-style: none;
     border-left-style: groove;
-    s
+    
 }
 
 .obch {
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    display: table;
+    background-image: url(../img/back.png);
+    text-align: center;
     height: 760px;
+    
+    font-size: 18px;
+    text-transform: none;
+    padding: 15px;
+    border-top-style: none;
+    border-right-style: groove;
+    border-bottom-style: none;
+    border-left-style: groove;
 }
 .container_all div {
     height: 50px;
@@ -35,16 +44,32 @@
     
 }
 
-
+th {
     
-    
-    
+    font-size: 22px;
 }
-
-.cat {
-    color: #562B50;
+.name {
+    text-align: left;
+    padding-left: 45px;
+    padding-top: 20px;
+    text-decoration: underline;
 }
+.naming {
+    text-align: left;
+    padding-left: 20px;
+}
+.left_contact {
+    
+    background-image: url(../img/back.png);
 
-.dog {
-    color: #563B2D;
+}
+.right_contact {
+    
+    background-image: url(../img/back.png);
+
+}
+.wrap {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 760px;
 }
