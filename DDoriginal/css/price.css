@@ -1,52 +1,25 @@
-.container_all {
-    display: grid;
-    grid-template-columns: 1fr 3fr 2fr;
-    
-    padding-left: 100px;
-    padding-right: 100px;
-    text-align: center;
-    
-    background-image: url(../img/back.png);
-    border-top-style: none;
-    border-right-style: groove;
-    border-bottom-style: none;
-    border-left-style: groove;
-    
-}
+
 
 .obch {
     display: table;
     background-image: url(../img/back.png);
     text-align: center;
-    height: 760px;
     
-    font-size: 18px;
-    text-transform: none;
-    padding: 15px;
     border-top-style: none;
     border-right-style: groove;
     border-bottom-style: none;
     border-left-style: groove;
-}
-.container_all div {
-    height: 50px;
+    font-size: 18px;
+    text-transform: none;
+    
+    border-collapse: collapse;
+    padding-right: 100px;
 }
 
-.container_all div.lanee {
-    border-bottom-style: solid ;
-    border-bottom-color: silver;
-    border-width: 1.5px;
-}
-
-.left_pr, .right_pr {
-    
-    background-image: url(../img/back.png);
-    
-}
 
 th {
-    
-    font-size: 22px;
+    padding-left: 10px;
+    font-size: 20px;
 }
 .name {
     text-align: left;
@@ -71,5 +44,35 @@ th {
 .wrap {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    height: 760px;
+    
+}
+tr:nth-child(odd) {
+    
+  background: white;
+}
+tr:nth-child(even) {
+  background: #E8E6D1;
+}
+td {
+    padding-left: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+footer {
+    border-top: 5px solid #59595A;
+    display: block;
+    padding: 8px 35px 0 10px;
+    
+    height: 30px;
+    position: relative;
+    background: #343434;
+    color: white;
+    text-transform: none;
+    font-size: 12px;
+    text-align: right;
+    
+    
 }

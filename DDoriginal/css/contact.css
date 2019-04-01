@@ -1,18 +1,18 @@
 .hope {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    height: 760px;
+    
 }
 
 .container_all {
     text-align: center;
-    height: 760px;
+    
     background-image: url(../img/back.png);
     border-top-style: none;
     border-right-style: groove;
     border-bottom-style: none;
     border-left-style: groove;
-    
+    padding-right: 100px;
 }
 
 
@@ -29,11 +29,11 @@
 }
 
 p a {
-    color: #322AFF;
+    color: #EC6550;
 }
 
 p a:hover {
-    color: #7FFF85;
+    color: #5C93C1;
     text-decoration: underline;
 }
 
@@ -49,14 +49,14 @@ p a:hover {
 .right_contact {
     
 
-    padding-right: 100px;
+    
     background-image: url(../img/back.png);
 
     
 }
 span {
     text-transform: none;
-    font-size: 13px;
+    font-size: 14px;
 }
 h4 {
     margin: 40px 0 10px 0;

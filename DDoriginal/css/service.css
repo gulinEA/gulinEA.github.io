@@ -38,20 +38,17 @@
 }
 
 .adress_on{
-    color: #925B49;
+    color: #EC6550;
 }
 
 .adress_on:hover {
-    color: #fff;
-    background-color: #3E4045;
+    color: #5C93C1;
+    text-decoration: underline;
 }
 
 #adress {
     text-transform: none;
     font-size: 14px;
     padding-left: 40px;
-    
-}
-.straight {
     
 }

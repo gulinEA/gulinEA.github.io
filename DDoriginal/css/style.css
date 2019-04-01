@@ -163,7 +163,7 @@ footer {
     text-transform: none;
     font-size: 12px;
     text-align: right;
-    
+    position: relative;
 }
 
 @media (max-width: 600px) {
