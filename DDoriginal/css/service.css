@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 760px;
-    
 }
 
 .container_all {
@@ -14,27 +13,17 @@
     border-bottom-style: none;
     border-left-style: groove;
     min-width: 390px;
-    padding-right: 100px;
 }
-
-
-
 .east_test {
-    
     background-image: url(../img/back.png);
-    
 }
 
 .west_test {
-
     background-image: url(../img/back.png);
-    
-    
 }
 
 .floor {
     margin-top: 100px;
-
 }
 
 .adress_on{
@@ -50,5 +39,4 @@
     text-transform: none;
     font-size: 14px;
     padding-left: 40px;
-    
 }

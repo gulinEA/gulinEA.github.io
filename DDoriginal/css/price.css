@@ -1,21 +1,15 @@
-
-
 .obch {
     display: table;
     background-image: url(../img/back.png);
     text-align: center;
-    
     border-top-style: none;
     border-right-style: groove;
     border-bottom-style: none;
     border-left-style: groove;
     font-size: 18px;
     text-transform: none;
-    
     border-collapse: collapse;
-    padding-right: 100px;
 }
-
 
 th {
     padding-left: 10px;
@@ -32,22 +26,17 @@ th {
     padding-left: 20px;
 }
 .left_contact {
-    
     background-image: url(../img/back.png);
-
 }
 .right_contact {
     
     background-image: url(../img/back.png);
-
 }
 .wrap {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
-    
 }
 tr:nth-child(odd) {
-    
   background: white;
 }
 tr:nth-child(even) {
@@ -59,13 +48,11 @@ td {
 
 table {
     border-collapse: collapse;
-    
 }
 footer {
     border-top: 5px solid #59595A;
     display: block;
     padding: 8px 35px 0 10px;
-    
     height: 30px;
     position: relative;
     background: #343434;
@@ -73,6 +60,4 @@ footer {
     text-transform: none;
     font-size: 12px;
     text-align: right;
-    
-    
 }

@@ -7,11 +7,7 @@ body {
     text-transform: uppercase;
     margin: 0;
     padding: 0;
-    
-    
-
 }
-
 header {
     height: 122px;
 }
@@ -19,14 +15,10 @@ header {
     display: flex;
     align-items: center;
     border-bottom: 5px solid #59595A;
-
 }
-
 .logo img {
     height: 127px;
-    
 }
-
 .list {
     display: block;
     border-radius: 100px;
@@ -38,11 +30,8 @@ header {
     text-align: center;
     width: 150px;
     height: 1px;
-    
     background: #EC6550;
     letter-spacing: 0.07em;
-
-
 }
 .list:hover {
     background: #EB9F7B;
@@ -56,9 +45,6 @@ a {
 a:hover {
     color: #FAFFE6;
 }
-
-
-
 .left_logo {
     margin-left: auto;
     padding-right: 30px;
@@ -67,18 +53,10 @@ a:hover {
     text-transform: none;
     font-family: verdana, sans-serif;
     padding-left: 20px;
-    
-
 }
-
-
 .left {
-
-    
     margin-right: 80px;
     margin-left: 35px;
-    
-
 }
 
 .glav {
@@ -89,24 +67,15 @@ a:hover {
 .one {
     margin-top: 5px;
     display: block;
-
-
 }
 
 .right {
     margin-left: 0;
     background-image: url(../img/back.png);
-
-    
 }
-
-
-
 .list_a {
     color: white;
 }
-
-
 .container {
     display: flex;
     padding: 0;
@@ -115,41 +84,29 @@ a:hover {
     height: auto;
     background-image: url(../img/back.png);
     padding-right: 150px;
-    
-    
-
 }
 
 .right img {
     width: 55vh;
     margin-left: auto;
     height: 60vh;
-    
     margin: 40px 35px 92px 0;
-    
 }
 
 .container_all {
     text-transform: none;
 }
 
-
 .left h2 {
     font-size: 4vh;
     padding-bottom: 35px;
     border-bottom: 2px solid red;
-    
-
 }
 .text {
-    
     position: relative;
     text-transform: none;
-    
-    
     font-size: 1vw 1vh;
     color: black;
-    
 }
 
 footer {
