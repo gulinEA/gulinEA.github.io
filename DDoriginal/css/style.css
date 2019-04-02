@@ -83,7 +83,6 @@ a:hover {
     width: 100%;
     height: auto;
     background-image: url(../img/back.png);
-    padding-right: 150px;
 }
 
 .right img {
@@ -121,6 +120,7 @@ footer {
     font-size: 12px;
     text-align: right;
     position: relative;
+    width: auto;
 }
 
 @media (max-width: 600px) {
