@@ -5,7 +5,7 @@
     border-top-style: none;
     border-right-style: groove;
     border-bottom-style: none;
-    border-left-style: groove;
+    border-left-style: ridge;
     font-size: 18px;
     text-transform: none;
     border-collapse: collapse;
@@ -20,6 +20,7 @@ th {
     padding-left: 45px;
     padding-top: 20px;
     text-decoration: underline;
+    background-color: #EB9F7B;
 }
 .naming {
     text-align: left;
@@ -48,16 +49,4 @@ td {
 
 table {
     border-collapse: collapse;
-}
-footer {
-    border-top: 5px solid #59595A;
-    display: block;
-    padding: 8px 35px 0 10px;
-    height: 30px;
-    position: relative;
-    background: #343434;
-    color: white;
-    text-transform: none;
-    font-size: 12px;
-    text-align: right;
 }

@@ -1,12 +1,12 @@
 body {
     font-family: sans-serif;
     font-size: 20px;
-    width: auto;
-    height: auto;
+    display: flex;
     background: #343434;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
+    flex-direction: column;
 }
 header {
     height: 122px;
@@ -15,7 +15,9 @@ header {
     display: flex;
     align-items: center;
     border-bottom: 5px solid #59595A;
+    
 }
+
 .logo img {
     height: 127px;
 }
@@ -112,7 +114,7 @@ footer {
     border-top: 5px solid #59595A;
     display: block;
     padding: 8px 35px 0 10px;
-    background-color: blue;
+    
     height: 30px;
     background: #343434;
     color: white;
@@ -120,11 +122,33 @@ footer {
     font-size: 12px;
     text-align: right;
     position: relative;
-    width: auto;
 }
 
 @media (max-width: 600px) {
     .right, .logo{
         display: none;
+    }
+    .general {
+        display: flex;
+        align-items: center;
+        border-bottom: none;
+    }
+    .obch {
+        width: 380px;
+    }
+    .container {
+        width: 380px;
+    }
+    footer {
+        display: block;
+        padding: 8px 35px 0 10px;
+        height: 30px;
+        background: #343434;
+        color: white;
+        text-transform: none;
+        font-size: 12px;
+        text-align: right;
+        position: relative;
+        border-top: none;
     }
 }
