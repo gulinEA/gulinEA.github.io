@@ -44,3 +44,7 @@ span {
 h4 {
     margin: 40px 0 10px 0;
 }
+.map {
+    width: 380px;
+    height: 350px;
+}
