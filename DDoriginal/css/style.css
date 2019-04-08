@@ -136,9 +136,12 @@ footer {
     .obch {
         width: 380px;
     }
-    .container {
+    .container, .container_all, .wrap, .hope {
         width: 380px;
+        border-bottom: 5px solid #59595A;
+        border-top: 5px solid #59595A;
     }
+    
     footer {
         display: block;
         padding: 8px 35px 0 10px;
@@ -150,5 +153,8 @@ footer {
         text-align: right;
         position: relative;
         border-top: none;
+    }
+    .left_logo {
+        padding: 15px 20px;
     }
 }
