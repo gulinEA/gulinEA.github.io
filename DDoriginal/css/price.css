@@ -1,14 +1,17 @@
+.hope {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
 .obch {
-    display: table;
     background-image: url(../img/back.png);
     text-align: center;
     border-top-style: none;
     border-right-style: groove;
     border-bottom-style: none;
     border-left-style: ridge;
-    font-size: 18px;
     text-transform: none;
     border-collapse: collapse;
+    height: 760px;
 }
 
 th {

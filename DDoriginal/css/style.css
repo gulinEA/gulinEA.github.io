@@ -115,7 +115,6 @@ footer {
     border-top: 5px solid #59595A;
     display: block;
     padding: 8px 35px 0 10px;
-    
     height: 30px;
     background: #343434;
     color: white;
@@ -125,7 +124,7 @@ footer {
     position: relative;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .right, .logo{
         display: none;
     }
@@ -154,9 +153,6 @@ footer {
         text-align: right;
         position: relative;
         border-top: none;
-    }
-    .left_logo {
-        
     }
     
 }
